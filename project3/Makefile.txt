@@ -1,0 +1,5 @@
+all: Xkcdpwgen.class
+Xkcdpwgen.class: Xkcdpwgen.java
+	javac -classpath . Xkcdpwgen.java
+clean:
+	rm -f *.class
