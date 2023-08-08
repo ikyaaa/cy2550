@@ -2,7 +2,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Xkcdpwgen {
+public class xkcdpwgen {
     Random rand;
     ArrayList<String> list;
    String[] symbols = {"~","!","@","#","$","%","^","&","*",".",":",";"};
@@ -10,7 +10,7 @@ public class Xkcdpwgen {
 
 
 
-    Xkcdpwgen(){
+    xkcdpwgen(){
         this.rand = new Random();
         this.list= new ArrayList<String>();
 

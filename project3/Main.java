@@ -3,7 +3,7 @@
 public class Main {
     //Xkcdpwgen x = new Xkcdpwgen();
     public static void main(String[] args) {
-        Xkcdpwgen x = new Xkcdpwgen();
+        xkcdpwgen x = new xkcdpwgen();
        x.createPassword1("-h");
 
         }
